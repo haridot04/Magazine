@@ -67,7 +67,11 @@ main::after{
     position: absolute;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     opacity: 0.9
+=======
+    opacity: 0.9;
+>>>>>>> f7d6c737a77f5879608a14608fcab5f2fd1837d5
 }
 
 #mag, #college, #read{
