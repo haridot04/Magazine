@@ -1,0 +1,118 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(./fonts/Kastelov\ -\ Axiforma\ Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(./fonts/Kastelov\ -\ Axiforma\ Book.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'CircularStd';
+    src: url(./fonts/CircularStd-Bold.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    position: relative;
+    margin: auto;
+    background-image: url(img/muw.png);
+    width: 50%;
+    height: 100vh;
+}
+
+section{
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 45vw;
+    z-index: 1;
+    transform: translate(-20%, 10%);
+}
+
+h2{
+    font-family: CircularStd;
+    color: white;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: white;
+    font-family: Axiforma;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+main::after{ 
+    content: "";
+    background: black;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+#mag, #college, #read{
+    text-align: center;
+}
+
+#college{
+    margin: 30px 0;
+}
+
+#read button{
+    font-family: Axiforma;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+#title{
+    text-align: center;
+}
+
+#mag{
+    padding-top: 10%;
+}
+
+@media screen and (max-width:1000px){
+
+    section{
+        width: 100%;
+        transform: translate(-32%, 10%);
+    }
+
+}
+
+@media screen and (max-width:850px){
+
+    main{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+    section{
+        transform: translate(-43%, 10%);
+    }
+
+}
