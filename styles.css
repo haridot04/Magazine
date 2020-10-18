@@ -30,6 +30,8 @@ main{
     position: relative;
     margin: auto;
     background-image: url(img/muw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 50%;
     height: 100vh;
 }
@@ -65,7 +67,7 @@ main::after{
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.9
 }
 
 #mag, #college, #read{
@@ -92,11 +94,45 @@ main::after{
     padding-top: 10%;
 }
 
+#read{
+    margin-top: 14vh;
+}
+
+header{
+    min-height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#pub{
+
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+header h2{
+    padding-top: 2.6vh;
+}
+
+#border{
+    margin: 20px;
+}
+
 @media screen and (max-width:1000px){
 
     section{
-        width: 100%;
+        width: 95%;
         transform: translate(-32%, 10%);
+    }
+
+    header, #pub iframe{
+        width: 100%;
     }
 
 }
@@ -107,6 +143,9 @@ main::after{
         width: 100%;
     }
 
+    header, #pub{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:450px){
