@@ -111,6 +111,15 @@ main::after{
     margin-top: 10px;
 }
 
+#read #small{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    color: white;
+    text-decoration: white;
+}
+
 header{
     min-height: 10vh;
     background-color: black;
@@ -140,6 +149,11 @@ header h2{
 #title img {
     width: 153px;
     height: 153px;
+}
+
+span{
+    font-size: 1.1rem;
+    color: red;
 }
 
 @media screen and (max-width:1000px){
