@@ -10,10 +10,10 @@ tl.fromTo('#read', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.2");
 tl.fromTo('#read', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.2");
 
 
-var img = document.querySelector('main');
-var freewayEaseTween = new TimelineMax({
-    paused: true,
-    repeat: -1,
-    yoyo: true,
-});
+// var img = document.querySelector('main');
+// var freewayEaseTween = new TimelineMax({
+//     paused: true,
+//     repeat: -1,
+//     yoyo: true,
+// });
 
